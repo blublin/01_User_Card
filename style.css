@@ -5,32 +5,53 @@
 }
 
 #container {
-    width: 500px;
-    height: 250px;
-    border: 3px solid gray;
-    background-color: red;
+    width: 550px;
+    height: 280px;
+    border: 2px solid gray;
+    /* background-color: red; */
     margin: 30px auto;
 }
 
 .top-bar {
     height: 80px;
-    background-color: teal;
+    background-color: rgb(13, 184, 251);
+    margin-bottom: 30px;
 }
 
-.profile-picture > img {
+.profile-picture {
     height: 60px;
-    position: absolute;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: relative;
     top: 40px;
-}
-
-.settings > img {
-    height: 20px;
+    left: 30px;
 }
 
 .main {
+    padding-left: 15px;
+}
+.name {
+    margin-bottom: 5px;
+}
+
+.location {
     display: flex;
+    height: 25px;
+}
+
+.location > img {
+    height: 15px;
+    margin-right: 10px;
+}
+
+.blurb {
+    margin-bottom: 15px;
+}
+
+.settings > img {
+    height: 15px;
 }
 
 .settings {
-    align-self: flex-end;
+    display: flex;
 }
