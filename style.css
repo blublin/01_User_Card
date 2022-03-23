@@ -1,0 +1,36 @@
+/* CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 500px;
+    height: 250px;
+    border: 3px solid gray;
+    background-color: red;
+    margin: 30px auto;
+}
+
+.top-bar {
+    height: 80px;
+    background-color: teal;
+}
+
+.profile-picture > img {
+    height: 60px;
+    position: absolute;
+    top: 40px;
+}
+
+.settings > img {
+    height: 20px;
+}
+
+.main {
+    display: flex;
+}
+
+.settings {
+    align-self: flex-end;
+}
